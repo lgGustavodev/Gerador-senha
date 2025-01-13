@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: radial-gradient(circle, #21a2bf, #0dc4d9);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+#title {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#password_container {
+    width: 100%;
+    max-width: 400px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 8px 18px;
+}
+#password_container.show {
+    display: flex;
+}
+#password {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#copy {
+    background-color: transparent;
+    border: none;
+    color: #00437f;
+    height: 40px;
+    width: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.4s;
+}
+#copy:hover {
+    color: #0dc4d9;
+}
+
+#password_items {
+    width: 400px;
+    background-color: #4988bf;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 18px;
+}
+
+.item {
+    display: flex;
+    gap: 14px;
+}
+#size {
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+}
+#size::-webkit-inner-spin-button,
+#size::-webkit-outer-spin-button {
+    opacity: 1;
+}
+#size:focus {
+    outline: 1px solid #0dc4d9;
+}
+#generate {
+    background-color: #03588c;
+    border: none;
+    margin-top: 12px;
+    padding: 10px 0px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+#generate:hover {
+    background-color: #00437f;
+}
