@@ -93,7 +93,7 @@ document.querySelector("#generate").addEventListener("click", function () {
         return;
     }
     if (!charTypes.length) {
-        message("Selecione pelo menos um tipo de caractere!", "warninh");
+        message("Selecione pelo menos um tipo de caractere!", "warning");
         return;
     }
     const passwordGenerated = generatePassword(size, charTypes);
