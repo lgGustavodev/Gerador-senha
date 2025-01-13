@@ -1,42 +1,47 @@
-Gerador de Senha
+# Gerador de Senhas
 
-Descrição
-O Gerador de Senha é uma aplicação web simples que permite aos usuários gerar senhas seguras com diferentes critérios, como inclusão de letras maiúsculas, letras minúsculas, números e caracteres especiais.
+Um aplicativo simples para gerar senhas seguras com base nas preferências do usuário.
 
-Funcionalidades
-Gerar senhas com um número variável de caracteres.
+## Recursos
 
-Incluir letras maiúsculas, letras minúsculas, números e caracteres especiais nas senhas.
+- Escolha o comprimento da senha.
+- Inclua letras maiúsculas.
+- Inclua letras minúsculas.
+- Inclua números.
+- Inclua caracteres especiais.
 
-Copiar a senha gerada para a área de transferência com um clique.
+## Como usar
 
-Tecnologias Utilizadas
-HTML5
+1. Clone o repositório:
 
-CSS3
+    ```bash
+    git clone https://github.com/lggustavodev/Gerador-senha.git
+    ```
 
-JavaScript
+2. Navegue até o diretório do projeto:
 
-Font Awesome
+    ```bash
+    cd Gerador-senha
+    ```
 
-Toastify
+3. Abra o arquivo `index.html` no seu navegador preferido.
 
-Como Usar
-Acesse a aplicação em: Gerador de Senha
+## Demonstração
 
-Insira a quantidade de caracteres desejada.
+Você pode ver uma demonstração do projeto [aqui](https://lggustavodev.github.io/Gerador-senha/).
 
-Selecione os critérios de inclusão para a senha (letras maiúsculas, letras minúsculas, números, caracteres especiais).
+## Tecnologias utilizadas
 
-Clique no botão "Gerar senha".
+- HTML
+- CSS
+- JavaScript
+- Font Awesome
+- Toastify.js
 
-Clique no ícone de cópia para copiar a senha gerada para a área de transferência.
+## Contribuição
 
-Capturas de Tela
-Tela Principal
+Sinta-se à vontade para contribuir com o projeto. Envie um pull request ou abra uma issue.
 
-Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+## Licença
 
-Licença
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
